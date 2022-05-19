@@ -1,0 +1,15 @@
+.header{
+	background-image: url('../img/top-banner.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	position: relative;
+}
+
+.scale {
+	transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+	transform: scale(1.2); /* Увеличиваем масштаб */
+}
